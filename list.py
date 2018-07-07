@@ -1,0 +1,12 @@
+a = [0,1.1,2.4,3.6,4.3,5]
+print(a)
+a.insert(2,9)
+print(a)
+a.reverse()
+print(a)
+a.sort()
+print(a)
+a.append(100)
+print(a)
+a.pop(0)
+print(a)
