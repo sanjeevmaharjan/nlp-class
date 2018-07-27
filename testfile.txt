@@ -1,0 +1,22 @@
+Are you pining for the good old days of grammar school? Perhaps you miss high
+school English class and diagramming sentences, identifying subject-verb relation-
+ships, and watching out for dangling modifiers. Well, you’re in luck, because part of
+text analysis is recalling the basics of high school English and beyond. Kidding aside,
+the next few sections build the foundation you need for the applications we’re discuss-
+ing by taking a look at common issues that need to be addressed in order to analyze
+text. By explicitly building this foundation, we can establish a shared vocabulary that
+will make it easier to explain concepts later, as well as encourage thinking about the
+features and function of language and how to harness them in an application. For
+instance, when you build your QA system later in chapter 8, you’ll need the ability to
+split raw strings up into individual words and then you’ll need to understand what role
+each of those words plays in the sentence (part of speech) as well as how they relate to
+each other via things like phrases and clauses. Given this kind of information, you’ll
+then be able take in a question like “Who is Bob’s uncle?” and dissect it to know that
+the question requires the answer to be a proper name (which consists of words that
+have been tagged as nouns) and that it must occur in the same sentence as the words
+Bob and uncle (and likely in that order). Though we take these things for granted, the
+computer must be told to look for these attributes. And though some applications will
+need all of these building blocks, many others will only need one or two. Some appli-
+cations will explicitly state their usage, whereas others won’t. In the long run, the
+more you know about how language works, the better off you’ll be in assessing the
+trade-offs inherent in any text analysis system.
